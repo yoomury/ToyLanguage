@@ -26,7 +26,7 @@ public class Controller {
         printFlag = false;
         logFlag = false;
         repo = thisRepo;
-//        crtPrgState = repo.getCrtProgram();
+       crtPrgState = repo.getCrtProgram();
     }
 
     public boolean isLogFlag() {
